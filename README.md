@@ -1,32 +1,92 @@
-# 🤖 AI Chatbot
+# EduBot AI
 
-This repository contains the complete source code for building an AI Chatbot using HTML, CSS, and JavaScript. The project features a clean and responsive design, allowing for easy interaction with the chatbot.
+EduBot AI is an AI-powered educational chatbot designed to assist students with learning, doubt solving, and concept understanding through natural language conversations. The application leverages Google's Gemini API to provide intelligent responses and supports image-based queries for enhanced learning.
 
-## 📦 Get Started
+## Key Features
 
-To get the complete source code, download the zip file that contains all the necessary code and assets.
+- AI-powered educational question answering
+- Real-time responses using Google Gemini API
+- Image upload and analysis support
+- Interactive chat interface
+- Emoji support for engaging conversations
+- Chat history management
+- Responsive design for desktop and mobile devices
+- User-friendly learning environment
 
-## ⭐ Features
+## Technology Stack
 
-- **Chat Functionality**: Interact with the AI-powered chatbot.
-- **Google Gemini API**: Utilizes a free API to generate responses.
-- **Loading Animation**: Engaging animation displayed before responses.
-- **Image Upload**: Upload images and ask related questions to the chatbot.
-- **Emoji Picker**: Easy-to-use emoji picker for enhanced conversations.
-- **Responsive Design**: Adapts to various screen sizes and devices.
-- **Easy Customization**: Simple to integrate and customize according to your needs.
-- **Clean Code**: Well-structured and commented code for easy understanding.
+### Frontend
 
-## 🖼️ Icon
+- HTML5
+- CSS3
+- JavaScript
 
-An SVG icon representing the chatbot is included in the repository as `chatbot-icon.svg`. You can use this icon in your project for branding or visual representation.
+### AI Integration
 
+- Google Gemini API
 
-## 📄 License
+### Additional Libraries
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Emoji Mart
 
-## 🤝 Contributing
+## Project Structure
 
-Feel free to submit issues or pull requests if you want to contribute to the project!
+```text
+EduBot-AI/
+│
+├── index.html
+├── style.css
+├── script.js
+├── chatbot-icon.svg
+├── README.md
+└── LICENSE
+```
 
+## Installation and Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/EduBot-AI.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd EduBot-AI
+```
+
+3. Add your Gemini API key in `script.js`
+
+```javascript
+const API_KEY = "YOUR_GEMINI_API_KEY";
+```
+
+4. Open the project using Live Server or any local development server.
+
+## Learning Outcomes
+
+This project helped in gaining practical experience with:
+
+- API integration using JavaScript
+- Asynchronous programming and Fetch API
+- Frontend UI/UX design
+- Responsive web development
+- File upload handling
+- AI-powered application development
+
+## Future Enhancements
+
+- Voice-based interaction
+- User authentication
+- Persistent chat history
+- Multi-language support
+- PDF and document analysis
+
+## Author
+
+**Moly Shrivastava**
+
+## License
+
+This project is licensed under the MIT License.
